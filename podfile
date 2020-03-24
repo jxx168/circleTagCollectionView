@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+#install! 'cocoapods', :deterministic_uuids => false
+platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'RunTime' do
+# use_frameworks!
+
+pod 'Masonry'
+end
+
