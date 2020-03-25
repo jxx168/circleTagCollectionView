@@ -14,7 +14,7 @@
 }
 -(void)prepareLayout{
     [super prepareLayout];
-    _itemCount = (int)[self.collectionView numberOfItemsInSection:0];
+    _itemCount = (int)[self.collectionView numberOfItemsInSection:1];
     _attributeAttay = [[NSMutableArray alloc]init];
     CGFloat radius = MIN(self.collectionView.frame.size.width, self.collectionView.frame.size.height)/2;
     //计算圆心位置

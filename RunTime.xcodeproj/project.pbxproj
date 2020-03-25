@@ -18,6 +18,7 @@
 		52C475C12429D88100E8F52F /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C02429D88100E8F52F /* CircleLayout.m */; };
 		52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C22429E14800E8F52F /* UIView+PBFrameExtension.m */; };
 		52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C92429EC0900E8F52F /* ItemCell.m */; };
+		52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475E1242AE87E00E8F52F /* CircleNewLayout.m */; };
 		B05F2BF07D186BF9B7C14051 /* libPods-RunTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECFD8939D7C84B61504CF0A /* libPods-RunTime.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		52C475C32429E14800E8F52F /* UIView+PBFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PBFrameExtension.h"; sourceTree = "<group>"; };
 		52C475C82429EC0900E8F52F /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		52C475C92429EC0900E8F52F /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		52C475E0242AE87E00E8F52F /* CircleNewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleNewLayout.h; sourceTree = "<group>"; };
+		52C475E1242AE87E00E8F52F /* CircleNewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleNewLayout.m; sourceTree = "<group>"; };
 		5ECFD8939D7C84B61504CF0A /* libPods-RunTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +93,8 @@
 				52C475C92429EC0900E8F52F /* ItemCell.m */,
 				52C475BF2429D88100E8F52F /* CircleLayout.h */,
 				52C475C02429D88100E8F52F /* CircleLayout.m */,
+				52C475E0242AE87E00E8F52F /* CircleNewLayout.h */,
+				52C475E1242AE87E00E8F52F /* CircleNewLayout.m */,
 				52C475B22429A2BD00E8F52F /* Person.h */,
 				52C475B32429A2BD00E8F52F /* Person.m */,
 				52C475C32429E14800E8F52F /* UIView+PBFrameExtension.h */,
@@ -109,7 +114,6 @@
 				2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */,
 				40DE461113DB117B49C0872D /* Pods-RunTime.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -219,6 +223,7 @@
 			files = (
 				52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */,
 				52C475A12429A2A400E8F52F /* ViewController.m in Sources */,
+				52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */,
 				52C4759B2429A2A400E8F52F /* AppDelegate.m in Sources */,
 				52C475B42429A2BD00E8F52F /* Person.m in Sources */,
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,

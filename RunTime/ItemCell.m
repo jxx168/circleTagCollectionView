@@ -9,6 +9,10 @@
 #import "ItemCell.h"
 #import <Masonry.h>
 @class SuccessView;
+@interface ItemCell()
+@property (nonatomic,strong) UILabel * labTitle;
+@property (nonatomic,strong) UIImageView * imgSelect;
+@end
 @implementation ItemCell
 {
     SuccessView * _successView;
@@ -26,37 +30,38 @@
     UIView * viewB = [UIView new];
     viewB.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
     [self addSubview:viewB];
-    viewB.layer.cornerRadius = 21;
-    viewB.layer.masksToBounds = YES;
     [viewB mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.equalTo(self).offset(4);
-        make.width.height.mas_equalTo(42);
+        make.edges.equalTo(self).insets(UIEdgeInsetsMake(4, 4, 4, 4));
     }];
-    
+    viewB.layer.cornerRadius = (self.frame.size.width - 8) / 2;
+    viewB.layer.masksToBounds = YES;
     
     UILabel * labTitle = [UILabel new];
     labTitle.text = @"哈哈";
     labTitle.textAlignment = NSTextAlignmentCenter;
     labTitle.font = [UIFont systemFontOfSize:13];
     labTitle.textColor = [UIColor whiteColor];
-    [self addSubview:labTitle];
+    [viewB addSubview:labTitle];
     [labTitle mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
+    self.labTitle = labTitle;
     
-    _successView = [[SuccessView alloc] initWithFrame:CGRectMake(0, 0, 14, 14)];
-    _successView.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
-    _successView.hidden = YES;
-    [self addSubview:_successView];
-    [_successView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(viewB.mas_right).offset(-10);
+    UIImageView * imageR = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"guide-select"]];
+    [self addSubview:imageR];
+    [imageR mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(self).offset(-10);
+        make.top.equalTo(self).offset(4);
         make.width.height.mas_equalTo(14);
-        make.top.equalTo(viewB.mas_top).offset(5);
     }];
+    
+    
 }
 -(void)setSelected:(BOOL)selected{
     [super setSelected:selected];
-    _successView.hidden = !selected;
+    if (selected) {
+        
+    }
 }
 @end
 
