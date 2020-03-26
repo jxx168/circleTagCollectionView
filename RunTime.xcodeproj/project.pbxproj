@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */; };
+		526887C4242C560F0063A184 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C3242C560F0063A184 /* CircleController.m */; };
+		526887C7242C68470063A184 /* CalenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C6242C68470063A184 /* CalenderController.m */; };
+		526887CB242C6CDE0063A184 /* AGHomeCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887CA242C6CDE0063A184 /* AGHomeCalendarView.m */; };
+		526887CE242C6F770063A184 /* AGDateHelpObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887CD242C6F770063A184 /* AGDateHelpObject.m */; };
+		526887D1242C743E0063A184 /* AGWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887D0242C743E0063A184 /* AGWeekView.m */; };
 		52C4759B2429A2A400E8F52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C4759A2429A2A400E8F52F /* AppDelegate.m */; };
 		52C4759E2429A2A400E8F52F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C4759D2429A2A400E8F52F /* SceneDelegate.m */; };
 		52C475A12429A2A400E8F52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475A02429A2A400E8F52F /* ViewController.m */; };
@@ -14,7 +20,6 @@
 		52C475A62429A2A600E8F52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C475A52429A2A600E8F52F /* Assets.xcassets */; };
 		52C475A92429A2A600E8F52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C475A72429A2A600E8F52F /* LaunchScreen.storyboard */; };
 		52C475AC2429A2A600E8F52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475AB2429A2A600E8F52F /* main.m */; };
-		52C475B42429A2BD00E8F52F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475B32429A2BD00E8F52F /* Person.m */; };
 		52C475C12429D88100E8F52F /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C02429D88100E8F52F /* CircleLayout.m */; };
 		52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C22429E14800E8F52F /* UIView+PBFrameExtension.m */; };
 		52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C475C92429EC0900E8F52F /* ItemCell.m */; };
@@ -25,6 +30,18 @@
 /* Begin PBXFileReference section */
 		2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.debug.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.debug.xcconfig"; sourceTree = "<group>"; };
 		40DE461113DB117B49C0872D /* Pods-RunTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.release.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.release.xcconfig"; sourceTree = "<group>"; };
+		524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NSSString.h"; sourceTree = "<group>"; };
+		524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NSSString.m"; sourceTree = "<group>"; };
+		526887C2242C560F0063A184 /* CircleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleController.h; sourceTree = "<group>"; };
+		526887C3242C560F0063A184 /* CircleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleController.m; sourceTree = "<group>"; };
+		526887C5242C68470063A184 /* CalenderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalenderController.h; sourceTree = "<group>"; };
+		526887C6242C68470063A184 /* CalenderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalenderController.m; sourceTree = "<group>"; };
+		526887C9242C6CDE0063A184 /* AGHomeCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGHomeCalendarView.h; sourceTree = "<group>"; };
+		526887CA242C6CDE0063A184 /* AGHomeCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGHomeCalendarView.m; sourceTree = "<group>"; };
+		526887CC242C6F770063A184 /* AGDateHelpObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDateHelpObject.h; sourceTree = "<group>"; };
+		526887CD242C6F770063A184 /* AGDateHelpObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDateHelpObject.m; sourceTree = "<group>"; };
+		526887CF242C743E0063A184 /* AGWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGWeekView.h; sourceTree = "<group>"; };
+		526887D0242C743E0063A184 /* AGWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGWeekView.m; sourceTree = "<group>"; };
 		52C475962429A2A400E8F52F /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C475992429A2A400E8F52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52C4759A2429A2A400E8F52F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,8 +54,6 @@
 		52C475A82429A2A600E8F52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C475AA2429A2A600E8F52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C475AB2429A2A600E8F52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52C475B22429A2BD00E8F52F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		52C475B32429A2BD00E8F52F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		52C475BF2429D88100E8F52F /* CircleLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
 		52C475C02429D88100E8F52F /* CircleLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 		52C475C22429E14800E8F52F /* UIView+PBFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PBFrameExtension.m"; sourceTree = "<group>"; };
@@ -62,6 +77,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526887C1242C55D90063A184 /* CircleBtn */ = {
+			isa = PBXGroup;
+			children = (
+				52C475C82429EC0900E8F52F /* ItemCell.h */,
+				52C475C92429EC0900E8F52F /* ItemCell.m */,
+				52C475BF2429D88100E8F52F /* CircleLayout.h */,
+				52C475C02429D88100E8F52F /* CircleLayout.m */,
+				52C475E0242AE87E00E8F52F /* CircleNewLayout.h */,
+				52C475E1242AE87E00E8F52F /* CircleNewLayout.m */,
+				526887C2242C560F0063A184 /* CircleController.h */,
+				526887C3242C560F0063A184 /* CircleController.m */,
+			);
+			path = CircleBtn;
+			sourceTree = "<group>";
+		};
+		526887C8242C6A9C0063A184 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				526887C9242C6CDE0063A184 /* AGHomeCalendarView.h */,
+				526887CA242C6CDE0063A184 /* AGHomeCalendarView.m */,
+				526887CF242C743E0063A184 /* AGWeekView.h */,
+				526887D0242C743E0063A184 /* AGWeekView.m */,
+				526887CC242C6F770063A184 /* AGDateHelpObject.h */,
+				526887CD242C6F770063A184 /* AGDateHelpObject.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		52C4758D2429A2A400E8F52F = {
 			isa = PBXGroup;
 			children = (
@@ -83,20 +126,18 @@
 		52C475982429A2A400E8F52F /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */,
+				524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */,
+				526887C8242C6A9C0063A184 /* Calendar */,
+				526887C1242C55D90063A184 /* CircleBtn */,
 				52C475992429A2A400E8F52F /* AppDelegate.h */,
 				52C4759A2429A2A400E8F52F /* AppDelegate.m */,
 				52C4759C2429A2A400E8F52F /* SceneDelegate.h */,
 				52C4759D2429A2A400E8F52F /* SceneDelegate.m */,
 				52C4759F2429A2A400E8F52F /* ViewController.h */,
 				52C475A02429A2A400E8F52F /* ViewController.m */,
-				52C475C82429EC0900E8F52F /* ItemCell.h */,
-				52C475C92429EC0900E8F52F /* ItemCell.m */,
-				52C475BF2429D88100E8F52F /* CircleLayout.h */,
-				52C475C02429D88100E8F52F /* CircleLayout.m */,
-				52C475E0242AE87E00E8F52F /* CircleNewLayout.h */,
-				52C475E1242AE87E00E8F52F /* CircleNewLayout.m */,
-				52C475B22429A2BD00E8F52F /* Person.h */,
-				52C475B32429A2BD00E8F52F /* Person.m */,
+				526887C5242C68470063A184 /* CalenderController.h */,
+				526887C6242C68470063A184 /* CalenderController.m */,
 				52C475C32429E14800E8F52F /* UIView+PBFrameExtension.h */,
 				52C475C22429E14800E8F52F /* UIView+PBFrameExtension.m */,
 				52C475A22429A2A400E8F52F /* Main.storyboard */,
@@ -222,14 +263,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */,
+				524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */,
 				52C475A12429A2A400E8F52F /* ViewController.m in Sources */,
 				52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */,
 				52C4759B2429A2A400E8F52F /* AppDelegate.m in Sources */,
-				52C475B42429A2BD00E8F52F /* Person.m in Sources */,
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,
+				526887C7242C68470063A184 /* CalenderController.m in Sources */,
 				52C4759E2429A2A400E8F52F /* SceneDelegate.m in Sources */,
+				526887D1242C743E0063A184 /* AGWeekView.m in Sources */,
 				52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */,
+				526887CB242C6CDE0063A184 /* AGHomeCalendarView.m in Sources */,
 				52C475C12429D88100E8F52F /* CircleLayout.m in Sources */,
+				526887C4242C560F0063A184 /* CircleController.m in Sources */,
+				526887CE242C6F770063A184 /* AGDateHelpObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

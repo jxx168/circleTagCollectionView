@@ -1,8 +1,8 @@
 //
-//  CircleLayout.h
+//  CircleController.h
 //  RunTime
 //
-//  Created by 闫强 on 2020/3/24.
+//  Created by qt on 2020/3/26.
 //  Copyright © 2020 wonders. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CircleLayout : UICollectionViewLayout
-@property(nonatomic,assign)int itemCount;
+@interface CircleController : UIViewController
+
 @end
 
 NS_ASSUME_NONNULL_END

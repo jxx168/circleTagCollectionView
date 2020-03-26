@@ -2,7 +2,7 @@
 //  CircleNewLayout.m
 //  RunTime
 //
-//  Created by 闫强 on 2020/3/25.
+//  Created by qt on 2020/3/25.
 //  Copyright © 2020 wonders. All rights reserved.
 //
 
