@@ -16,11 +16,13 @@ typedef void(^SendSelectDate)(NSDate *selDate);
 @property (nonatomic, strong) NSDate * currentDate;          //当前月份
 @property (nonatomic, strong) NSDate * selectDate;           //选中日期
 @property (nonatomic, copy) SendSelectDate sendSelectDate;  //回传选中日期
+@property (nonatomic, assign) CalendarType type;            //日历模式
 @property (nonatomic, assign) BOOL isReload;  //刷新数据
 @property (nonatomic, strong) NSArray * eventArray;          //事件数组
 @property (nonatomic, strong) AGAppearance * appearance;
 - (instancetype)initWithFrame:(CGRect)frame date:(NSDate *)date;
 @end
+
 
 @interface AGWeekCell : UICollectionViewCell
 @property (nonatomic,strong) NSDate *selectDate;   //选择日期

@@ -7,13 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AGWeekView.h"
+@class AGWeekView;
+typedef NS_ENUM(NSInteger,CalendarType) {
+    CalendarType_Week,
+    CalendarType_Month,
+};
 NS_ASSUME_NONNULL_BEGIN
 @class AGAppearance;
-typedef void(^sendSelectDate)(NSString *dateStr);
+typedef void(^RefreshH)(CGFloat viewH); //高度回调刷新
+typedef void(^sendSelectDate)(NSString *dateStr); //当前选择日期回调刷新
 @interface AGHomeCalendarView : UIView
 @property (nonatomic, copy) sendSelectDate sendSelectDate;
-- (instancetype)initWithFrame:(CGRect)frame date:(NSDate *)date appearance:(AGAppearance *)appearance;
+/**实现该block滑动时更新控件高度*/
+@property (nonatomic, copy) RefreshH refreshH;
+/**
+ 根据日期获取控件总高度
+ 
+ @param date 日期
+ @param type 类型
+ @return return value description
+ */
++ (CGFloat)getMonthTotalHeight:(NSDate *)date type:(CalendarType)type;
+- (instancetype)initWithFrame:(CGRect)frame date:(NSDate *)date appearance:(AGAppearance *)appearance type:(CalendarType)type;
 @end
 
 @interface AGAppearance : NSObject

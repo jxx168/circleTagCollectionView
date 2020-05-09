@@ -17,7 +17,7 @@
 @implementation AGWeekView
 - (instancetype)initWithFrame:(CGRect)frame date:(NSDate *)date {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor clearColor];
         _currentDate = date;
         [self setCollectionView];
     }
@@ -37,7 +37,7 @@
     _collectionV.scrollEnabled = NO;
     _collectionV.delegate = self;
     _collectionV.dataSource = self;
-    _collectionV.backgroundColor = [UIColor whiteColor];
+    _collectionV.backgroundColor = [UIColor clearColor];
     [self addSubview:_collectionV];
     [_collectionV registerClass:[AGWeekCell class] forCellWithReuseIdentifier:@"AGWeekCell"];
 }
@@ -53,15 +53,35 @@
     [_collectionV reloadData];
 }
 
+- (void)setType:(CalendarType)type {
+    _type = type;
+    [_collectionV reloadData];
+}
+
 //MARK: - dateMethod
 //获取cell的日期 (日 -> 六   格式,如需修改星期排序只需修改该函数即可)
 - (NSDate *)dateForCellAtIndexPath:(NSIndexPath *)indexPath {
-    return [[AGDateHelpObject shared] getEarlyOrLaterDate:_currentDate LeadTime:indexPath.row - 6 Type:2];
+    
+    if (_type == CalendarType_Month) {
+        NSCalendar *myCalendar = [NSCalendar currentCalendar];
+        NSDate *firstOfMonth = [[AGDateHelpObject shared] GetFirstDayOfMonth:_currentDate];
+        NSInteger ordinalityOfFirstDay = [myCalendar ordinalityOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitWeekOfMonth forDate:firstOfMonth];
+        NSDateComponents *dateComponents = [NSDateComponents new];
+        dateComponents.day = (1 - ordinalityOfFirstDay) + indexPath.item;
+        return [myCalendar dateByAddingComponents:dateComponents toDate:firstOfMonth options:0];
+    } else {
+        return [[AGDateHelpObject shared] getEarlyOrLaterDate:_currentDate LeadTime:indexPath.row - 6 Type:2];
+    }
+    
 }
 
 //MARK: - collectionViewDatasource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 7;
+    if (_type == CalendarType_Week) {
+        return 7;
+    } else {
+        return [[AGDateHelpObject shared] getRows:_currentDate] * 7;
+    }
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
