@@ -10,6 +10,7 @@
 #import <Masonry.h>
 #import "CircleController.h"
 #import "CalenderController.h"
+#import "ShadowController.h"
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT  [[UIScreen mainScreen] bounds].size.height
 
@@ -22,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrData = @[@"圆形布局",@"日历"];
+    self.arrData = @[@"圆形布局",@"日历",@"阴影"];
     [self.view addSubview:self.tabB];
     [self.tabB mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -53,6 +54,9 @@
     } else if (indexPath.row == 1){
         CalenderController * calender = [CalenderController new];
         [self.navigationController pushViewController:calender animated:YES];
+    } else if (indexPath.row == 2) {
+        ShadowController * shadow = [ShadowController new];
+        [self.navigationController pushViewController:shadow animated:YES];
     }
 }
 

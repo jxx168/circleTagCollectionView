@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    AGHomeCalendarView * calendar = [[AGHomeCalendarView alloc] initWithFrame:CGRectMake(0, 100, SCREENWIDTH, [AGHomeCalendarView getMonthTotalHeight:[NSDate date] type:CalendarType_Month]) date:[NSDate date] appearance:[AGAppearance new] type:CalendarType_Month];
+    AGHomeCalendarView * calendar = [[AGHomeCalendarView alloc] initWithFrame:CGRectMake(0, 100, SCREENWIDTH, [AGHomeCalendarView getMonthTotalHeight:[NSDate date] type:CalendarType_Week]) date:[NSDate date] appearance:[AGAppearance new] type:CalendarType_Week];
     __weak AGHomeCalendarView * weakCalendar = calendar;
     calendar.refreshH = ^(CGFloat viewH) {
         [UIView animateWithDuration:0.3 animations:^{
