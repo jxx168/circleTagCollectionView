@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0BF5A02490F84200BAA3AB /* AGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BF59F2490F84200BAA3AB /* AGView.m */; };
 		1AAE7B39247E12E40009080F /* ShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE7B38247E12E40009080F /* ShadowController.m */; };
 		524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */; };
 		526887C4242C560F0063A184 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C3242C560F0063A184 /* CircleController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A0BF59E2490F84200BAA3AB /* AGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGView.h; sourceTree = "<group>"; };
+		1A0BF59F2490F84200BAA3AB /* AGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGView.m; sourceTree = "<group>"; };
 		1AAE7B37247E12E40009080F /* ShadowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowController.h; sourceTree = "<group>"; };
 		1AAE7B38247E12E40009080F /* ShadowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowController.m; sourceTree = "<group>"; };
 		2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.debug.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			children = (
 				1AAE7B37247E12E40009080F /* ShadowController.h */,
 				1AAE7B38247E12E40009080F /* ShadowController.m */,
+				1A0BF59E2490F84200BAA3AB /* AGView.h */,
+				1A0BF59F2490F84200BAA3AB /* AGView.m */,
 			);
 			path = Shadow;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */,
 				52C4759B2429A2A400E8F52F /* AppDelegate.m in Sources */,
 				1AAE7B39247E12E40009080F /* ShadowController.m in Sources */,
+				1A0BF5A02490F84200BAA3AB /* AGView.m in Sources */,
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,
 				526887C7242C68470063A184 /* CalenderController.m in Sources */,
 				52C4759E2429A2A400E8F52F /* SceneDelegate.m in Sources */,
