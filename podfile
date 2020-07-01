@@ -4,7 +4,7 @@ platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'RunTime' do
 # use_frameworks!
-
+pod 'WechatOpenSDK'
 pod 'Masonry'
 end
 

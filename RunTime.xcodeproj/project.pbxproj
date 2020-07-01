@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0BF5A02490F84200BAA3AB /* AGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BF59F2490F84200BAA3AB /* AGView.m */; };
+		1A7FFEB024A89537000AF1CA /* AGWechatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */; };
+		1AAE3E2B24AC345800608542 /* WkPdfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E2A24AC345700608542 /* WkPdfController.m */; };
+		1AAE3E3124AC35CF00608542 /* UIPrintPageRenderer+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E3024AC35CF00608542 /* UIPrintPageRenderer+PDF.m */; };
+		1AAE3E3324AC367100608542 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAE3E3224AC367100608542 /* PDFKit.framework */; };
 		1AAE7B39247E12E40009080F /* ShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE7B38247E12E40009080F /* ShadowController.m */; };
 		524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */; };
 		526887C4242C560F0063A184 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C3242C560F0063A184 /* CircleController.m */; };
@@ -30,8 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A0BF59E2490F84200BAA3AB /* AGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGView.h; sourceTree = "<group>"; };
-		1A0BF59F2490F84200BAA3AB /* AGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGView.m; sourceTree = "<group>"; };
+		1A7FFEAE24A89537000AF1CA /* AGWechatShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGWechatShare.h; sourceTree = "<group>"; };
+		1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGWechatShare.m; sourceTree = "<group>"; };
+		1AAE3E2924AC345700608542 /* WkPdfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkPdfController.h; sourceTree = "<group>"; };
+		1AAE3E2A24AC345700608542 /* WkPdfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WkPdfController.m; sourceTree = "<group>"; };
+		1AAE3E2F24AC35CF00608542 /* UIPrintPageRenderer+PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPrintPageRenderer+PDF.h"; sourceTree = "<group>"; };
+		1AAE3E3024AC35CF00608542 /* UIPrintPageRenderer+PDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPrintPageRenderer+PDF.m"; sourceTree = "<group>"; };
+		1AAE3E3224AC367100608542 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
 		1AAE7B37247E12E40009080F /* ShadowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowController.h; sourceTree = "<group>"; };
 		1AAE7B38247E12E40009080F /* ShadowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowController.m; sourceTree = "<group>"; };
 		2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.debug.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAE3E3324AC367100608542 /* PDFKit.framework in Frameworks */,
 				B05F2BF07D186BF9B7C14051 /* libPods-RunTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,13 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AAE3E2824AC344700608542 /* WKPdf */ = {
+			isa = PBXGroup;
+			children = (
+				1AAE3E2924AC345700608542 /* WkPdfController.h */,
+				1AAE3E2A24AC345700608542 /* WkPdfController.m */,
+				1AAE3E2F24AC35CF00608542 /* UIPrintPageRenderer+PDF.h */,
+				1AAE3E3024AC35CF00608542 /* UIPrintPageRenderer+PDF.m */,
+			);
+			path = WKPdf;
+			sourceTree = "<group>";
+		};
 		1AAE7B36247E12D10009080F /* Shadow */ = {
 			isa = PBXGroup;
 			children = (
 				1AAE7B37247E12E40009080F /* ShadowController.h */,
 				1AAE7B38247E12E40009080F /* ShadowController.m */,
-				1A0BF59E2490F84200BAA3AB /* AGView.h */,
-				1A0BF59F2490F84200BAA3AB /* AGView.m */,
+				1A7FFEAE24A89537000AF1CA /* AGWechatShare.h */,
+				1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */,
 			);
 			path = Shadow;
 			sourceTree = "<group>";
@@ -145,6 +165,7 @@
 			children = (
 				524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */,
 				524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */,
+				1AAE3E2824AC344700608542 /* WKPdf */,
 				1AAE7B36247E12D10009080F /* Shadow */,
 				526887C8242C6A9C0063A184 /* Calendar */,
 				526887C1242C55D90063A184 /* CircleBtn */,
@@ -179,6 +200,7 @@
 		D531B9D2869CDB109FB66198 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AAE3E3224AC367100608542 /* PDFKit.framework */,
 				5ECFD8939D7C84B61504CF0A /* libPods-RunTime.a */,
 			);
 			name = Frameworks;
@@ -280,19 +302,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAE3E2B24AC345800608542 /* WkPdfController.m in Sources */,
 				52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */,
+				1A7FFEB024A89537000AF1CA /* AGWechatShare.m in Sources */,
 				524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */,
 				52C475A12429A2A400E8F52F /* ViewController.m in Sources */,
 				52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */,
 				52C4759B2429A2A400E8F52F /* AppDelegate.m in Sources */,
 				1AAE7B39247E12E40009080F /* ShadowController.m in Sources */,
-				1A0BF5A02490F84200BAA3AB /* AGView.m in Sources */,
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,
 				526887C7242C68470063A184 /* CalenderController.m in Sources */,
 				52C4759E2429A2A400E8F52F /* SceneDelegate.m in Sources */,
 				526887D1242C743E0063A184 /* AGWeekView.m in Sources */,
 				52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */,
 				526887CB242C6CDE0063A184 /* AGHomeCalendarView.m in Sources */,
+				1AAE3E3124AC35CF00608542 /* UIPrintPageRenderer+PDF.m in Sources */,
 				52C475C12429D88100E8F52F /* CircleLayout.m in Sources */,
 				526887C4242C560F0063A184 /* CircleController.m in Sources */,
 				526887CE242C6F770063A184 /* AGDateHelpObject.m in Sources */,
