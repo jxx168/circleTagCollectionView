@@ -954,7 +954,7 @@
 			baseConfigurationReference = 40DE461113DB117B49C0872D /* Pods-RunTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = TFEY5JV6HS;
 				INFOPLIST_FILE = RunTime/Info.plist;
@@ -964,7 +964,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.wonders.apps.ios.NursingStationManagerClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "NursingStationManagerClient Development";
+				PROVISIONING_PROFILE_SPECIFIER = "NursingStationManagerClient Distribution";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
