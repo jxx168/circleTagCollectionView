@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCache.m \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCodersManager.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCoder.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageFrame.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDAnimatedImage.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h

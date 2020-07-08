@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/yq/circleTagCollectionView/RunTime/LongImage/LongImgController.m \
+  /Users/yq/circleTagCollectionView/RunTime/LongImage/LongImgController.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/Masonry.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASUtilities.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/View+MASAdditions.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASConstraintMaker.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASConstraint.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASViewAttribute.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASCompositeConstraint.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASViewConstraint.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASLayoutConstraint.h \
+  /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImageView+WebCache.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageManager.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageLoader.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h \
+  /Users/yq/circleTagCollectionView/RunTime/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h
