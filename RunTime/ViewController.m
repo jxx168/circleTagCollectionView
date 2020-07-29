@@ -13,6 +13,7 @@
 #import "ShadowController.h"
 #import "WkPdfController.h"
 #import "LongImgController.h"
+#import "LuPingController.h"
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT  [[UIScreen mainScreen] bounds].size.height
 
@@ -25,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrData = @[@"圆形布局",@"日历",@"微信原生分享",@"WK打印PDF",@"截长图"];
+    self.arrData = @[@"圆形布局",@"日历",@"微信原生分享",@"WK打印PDF",@"截长图",@"录屏"];
     [self.view addSubview:self.tabB];
     [self.tabB mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -65,6 +66,9 @@
     } else if (indexPath.row == 4) {
         LongImgController * lon = [LongImgController new];
         [self.navigationController pushViewController:lon animated:YES];
+    } else if (indexPath.row == 5) {
+        LuPingController * luping = [LuPingController new];
+        [self.navigationController pushViewController:luping animated:YES];
     }
 }
 
