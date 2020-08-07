@@ -79,6 +79,7 @@
 		1A50DE1124AC93320021350F /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A50DDCC24AC93320021350F /* SDAssociatedObject.m */; };
 		1A7FFEB024A89537000AF1CA /* AGWechatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */; };
 		1AA7EA4424D154FA008DB5F3 /* LuPingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7EA4324D154FA008DB5F3 /* LuPingController.m */; };
+		1AA7EA4F24D3B9F1008DB5F3 /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7EA4E24D3B9F1008DB5F3 /* UINavigationController+Extension.m */; };
 		1AAE3E2B24AC345800608542 /* WkPdfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E2A24AC345700608542 /* WkPdfController.m */; };
 		1AAE3E3124AC35CF00608542 /* UIPrintPageRenderer+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E3024AC35CF00608542 /* UIPrintPageRenderer+PDF.m */; };
 		1AAE3E3324AC367100608542 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAE3E3224AC367100608542 /* PDFKit.framework */; };
@@ -251,6 +252,8 @@
 		1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGWechatShare.m; sourceTree = "<group>"; };
 		1AA7EA4224D154FA008DB5F3 /* LuPingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuPingController.h; sourceTree = "<group>"; };
 		1AA7EA4324D154FA008DB5F3 /* LuPingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuPingController.m; sourceTree = "<group>"; };
+		1AA7EA4D24D3B9F1008DB5F3 /* UINavigationController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extension.h"; sourceTree = "<group>"; };
+		1AA7EA4E24D3B9F1008DB5F3 /* UINavigationController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extension.m"; sourceTree = "<group>"; };
 		1AAE3E2924AC345700608542 /* WkPdfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkPdfController.h; sourceTree = "<group>"; };
 		1AAE3E2A24AC345700608542 /* WkPdfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WkPdfController.m; sourceTree = "<group>"; };
 		1AAE3E2F24AC35CF00608542 /* UIPrintPageRenderer+PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPrintPageRenderer+PDF.h"; sourceTree = "<group>"; };
@@ -596,6 +599,8 @@
 				526887C6242C68470063A184 /* CalenderController.m */,
 				52C475C32429E14800E8F52F /* UIView+PBFrameExtension.h */,
 				52C475C22429E14800E8F52F /* UIView+PBFrameExtension.m */,
+				1AA7EA4D24D3B9F1008DB5F3 /* UINavigationController+Extension.h */,
+				1AA7EA4E24D3B9F1008DB5F3 /* UINavigationController+Extension.m */,
 				52C475A22429A2A400E8F52F /* Main.storyboard */,
 				52C475A52429A2A600E8F52F /* Assets.xcassets */,
 				52C475A72429A2A600E8F52F /* LaunchScreen.storyboard */,
@@ -724,6 +729,7 @@
 				1A50DDD124AC93320021350F /* SDAnimatedImageView+WebCache.m in Sources */,
 				1AAE3E2B24AC345800608542 /* WkPdfController.m in Sources */,
 				52C475CA2429EC0900E8F52F /* ItemCell.m in Sources */,
+				1AA7EA4F24D3B9F1008DB5F3 /* UINavigationController+Extension.m in Sources */,
 				1A50DDF424AC93320021350F /* SDWebImageDownloaderOperation.m in Sources */,
 				1A50DDD024AC93320021350F /* NSImage+Compatibility.m in Sources */,
 				1A7FFEB024A89537000AF1CA /* AGWechatShare.m in Sources */,

@@ -33,6 +33,10 @@
     }];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
@@ -68,7 +72,9 @@
         [self.navigationController pushViewController:lon animated:YES];
     } else if (indexPath.row == 5) {
         LuPingController * luping = [LuPingController new];
-        [self.navigationController pushViewController:luping animated:YES];
+        UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:luping];
+        nav.modalPresentationStyle = UIModalPresentationOverFullScreen;
+        [self.navigationController presentViewController:nav animated:YES completion:nil];
     }
 }
 

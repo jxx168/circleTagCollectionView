@@ -7,6 +7,7 @@
 //
 
 #import "LuPingController.h"
+#import "LuPingController.h"
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT  [[UIScreen mainScreen] bounds].size.height
 
@@ -22,6 +23,17 @@
     } else { //停止
         
     }
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;//文字黑色
+//    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;//文字黑色
 }
 
 - (void)viewDidLoad {
@@ -48,7 +60,17 @@
     [self.view addSubview:btnStop];
 }
 
-
+- (UIStatusBarStyle)preferredStatusBarStyle {
+//    if (self.isStatusBarWhite) {
+        return UIStatusBarStyleLightContent;
+//    } else{
+//        if (@available(iOS 13.0, *)) {
+//            return UIStatusBarStyleDarkContent;
+//        } else {
+//            return UIStatusBarStyleDefault;
+//        }
+//    }
+}
 
 
 
@@ -63,6 +85,10 @@
     }
     cell.textLabel.text = [NSString stringWithFormat:@"我是第%ld行",(long)indexPath.row];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(UITableView *)tabB{
