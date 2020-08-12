@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/yq/circleTagCollectionView/RunTime/luping/LuPingController.m \
-  /Users/yq/circleTagCollectionView/RunTime/luping/LuPingController.h
+  /Users/yq/circleTagCollectionView/RunTime/LuPingController.m \
+  /Users/yq/circleTagCollectionView/RunTime/LuPingController.h

@@ -78,12 +78,13 @@
 		1A50DE1024AC93320021350F /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A50DDCB24AC93320021350F /* UIColor+HexString.m */; };
 		1A50DE1124AC93320021350F /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A50DDCC24AC93320021350F /* SDAssociatedObject.m */; };
 		1A7FFEB024A89537000AF1CA /* AGWechatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */; };
-		1AA7EA4424D154FA008DB5F3 /* LuPingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7EA4324D154FA008DB5F3 /* LuPingController.m */; };
 		1AA7EA4F24D3B9F1008DB5F3 /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7EA4E24D3B9F1008DB5F3 /* UINavigationController+Extension.m */; };
 		1AAE3E2B24AC345800608542 /* WkPdfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E2A24AC345700608542 /* WkPdfController.m */; };
 		1AAE3E3124AC35CF00608542 /* UIPrintPageRenderer+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE3E3024AC35CF00608542 /* UIPrintPageRenderer+PDF.m */; };
 		1AAE3E3324AC367100608542 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAE3E3224AC367100608542 /* PDFKit.framework */; };
 		1AAE7B39247E12E40009080F /* ShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE7B38247E12E40009080F /* ShadowController.m */; };
+		1ACA7AFE24E0E77700AF0410 /* AGFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA7AFD24E0E77700AF0410 /* AGFileUtil.m */; };
+		1ACA7B0124E0E7B100AF0410 /* LuPingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA7B0024E0E7B100AF0410 /* LuPingController.m */; };
 		524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */; };
 		526887C4242C560F0063A184 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C3242C560F0063A184 /* CircleController.m */; };
 		526887C7242C68470063A184 /* CalenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C6242C68470063A184 /* CalenderController.m */; };
@@ -250,8 +251,6 @@
 		1A50DDCC24AC93320021350F /* SDAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAssociatedObject.m; sourceTree = "<group>"; };
 		1A7FFEAE24A89537000AF1CA /* AGWechatShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGWechatShare.h; sourceTree = "<group>"; };
 		1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGWechatShare.m; sourceTree = "<group>"; };
-		1AA7EA4224D154FA008DB5F3 /* LuPingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuPingController.h; sourceTree = "<group>"; };
-		1AA7EA4324D154FA008DB5F3 /* LuPingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuPingController.m; sourceTree = "<group>"; };
 		1AA7EA4D24D3B9F1008DB5F3 /* UINavigationController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extension.h"; sourceTree = "<group>"; };
 		1AA7EA4E24D3B9F1008DB5F3 /* UINavigationController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extension.m"; sourceTree = "<group>"; };
 		1AAE3E2924AC345700608542 /* WkPdfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkPdfController.h; sourceTree = "<group>"; };
@@ -261,6 +260,10 @@
 		1AAE3E3224AC367100608542 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
 		1AAE7B37247E12E40009080F /* ShadowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowController.h; sourceTree = "<group>"; };
 		1AAE7B38247E12E40009080F /* ShadowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowController.m; sourceTree = "<group>"; };
+		1ACA7AFC24E0E77700AF0410 /* AGFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGFileUtil.h; sourceTree = "<group>"; };
+		1ACA7AFD24E0E77700AF0410 /* AGFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGFileUtil.m; sourceTree = "<group>"; };
+		1ACA7AFF24E0E7B100AF0410 /* LuPingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuPingController.h; sourceTree = "<group>"; };
+		1ACA7B0024E0E7B100AF0410 /* LuPingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuPingController.m; sourceTree = "<group>"; };
 		2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.debug.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.debug.xcconfig"; sourceTree = "<group>"; };
 		40DE461113DB117B49C0872D /* Pods-RunTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.release.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.release.xcconfig"; sourceTree = "<group>"; };
 		524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NSSString.h"; sourceTree = "<group>"; };
@@ -500,15 +503,6 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
-		1AA7EA4124D154EB008DB5F3 /* luping */ = {
-			isa = PBXGroup;
-			children = (
-				1AA7EA4224D154FA008DB5F3 /* LuPingController.h */,
-				1AA7EA4324D154FA008DB5F3 /* LuPingController.m */,
-			);
-			path = luping;
-			sourceTree = "<group>";
-		};
 		1AAE3E2824AC344700608542 /* WKPdf */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,6 +523,15 @@
 				1A7FFEAF24A89537000AF1CA /* AGWechatShare.m */,
 			);
 			path = Shadow;
+			sourceTree = "<group>";
+		};
+		1ACA7AFB24E0E77100AF0410 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA7AFC24E0E77700AF0410 /* AGFileUtil.h */,
+				1ACA7AFD24E0E77700AF0410 /* AGFileUtil.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		526887C1242C55D90063A184 /* CircleBtn */ = {
@@ -580,7 +583,9 @@
 		52C475982429A2A400E8F52F /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
-				1AA7EA4124D154EB008DB5F3 /* luping */,
+				1ACA7AFF24E0E7B100AF0410 /* LuPingController.h */,
+				1ACA7B0024E0E7B100AF0410 /* LuPingController.m */,
+				1ACA7AFB24E0E77100AF0410 /* Common */,
 				1A50DD3B24AC93320021350F /* SDWebImage */,
 				524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */,
 				524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */,
@@ -765,6 +770,7 @@
 				1A50DDE524AC93320021350F /* SDWebImageCompat.m in Sources */,
 				1A50DDEA24AC93320021350F /* SDImageCoderHelper.m in Sources */,
 				1AAE7B39247E12E40009080F /* ShadowController.m in Sources */,
+				1ACA7B0124E0E7B100AF0410 /* LuPingController.m in Sources */,
 				1A50DDF924AC93320021350F /* NSData+ImageContentType.m in Sources */,
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,
 				526887C7242C68470063A184 /* CalenderController.m in Sources */,
@@ -775,6 +781,7 @@
 				52C4759E2429A2A400E8F52F /* SceneDelegate.m in Sources */,
 				526887D1242C743E0063A184 /* AGWeekView.m in Sources */,
 				1A50DE0124AC93320021350F /* SDWebImageOptionsProcessor.m in Sources */,
+				1ACA7AFE24E0E77700AF0410 /* AGFileUtil.m in Sources */,
 				1A50DDD424AC93320021350F /* SDWebImageManager.m in Sources */,
 				1A50DDDB24AC93320021350F /* UIImage+Transform.m in Sources */,
 				1A50DDD624AC93320021350F /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -792,7 +799,6 @@
 				1A50DDF124AC93320021350F /* SDImageCache.m in Sources */,
 				1A50DDDC24AC93320021350F /* SDWebImageDownloader.m in Sources */,
 				1A50DDE324AC93320021350F /* UIImage+MultiFormat.m in Sources */,
-				1AA7EA4424D154FA008DB5F3 /* LuPingController.m in Sources */,
 				1A50DDE924AC93320021350F /* SDWebImagePrefetcher.m in Sources */,
 				1A50DDE424AC93320021350F /* SDMemoryCache.m in Sources */,
 				1A50DDEB24AC93320021350F /* NSButton+WebCache.m in Sources */,

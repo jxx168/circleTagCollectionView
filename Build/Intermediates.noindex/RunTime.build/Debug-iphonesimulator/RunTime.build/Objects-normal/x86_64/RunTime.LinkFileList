@@ -37,6 +37,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageCompat.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCoderHelper.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/ShadowController.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/LuPingController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/NSData+ImageContentType.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/main.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/CalenderController.o
@@ -47,6 +48,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SceneDelegate.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/AGWeekView.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageOptionsProcessor.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/AGFileUtil.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageManager.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImage+Transform.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImageView+HighlightedWebCache.o
@@ -64,7 +66,6 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCache.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageDownloader.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImage+MultiFormat.o
-/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/LuPingController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImagePrefetcher.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDMemoryCache.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/NSButton+WebCache.o

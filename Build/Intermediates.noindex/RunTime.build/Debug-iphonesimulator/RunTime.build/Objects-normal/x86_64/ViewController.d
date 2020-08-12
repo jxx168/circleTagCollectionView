@@ -19,4 +19,4 @@ dependencies: /Users/yq/circleTagCollectionView/RunTime/ViewController.m \
   /Users/yq/circleTagCollectionView/RunTime/Shadow/ShadowController.h \
   /Users/yq/circleTagCollectionView/RunTime/WKPdf/WkPdfController.h \
   /Users/yq/circleTagCollectionView/RunTime/LongImage/LongImgController.h \
-  /Users/yq/circleTagCollectionView/RunTime/luping/LuPingController.h
+  /Users/yq/circleTagCollectionView/RunTime/LuPingController.h
