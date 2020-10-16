@@ -14,6 +14,7 @@
 #import "WkPdfController.h"
 #import "LongImgController.h"
 #import "LuPingController.h"
+#import "SquereController.h"
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT  [[UIScreen mainScreen] bounds].size.height
 
@@ -26,7 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrData = @[@"圆形布局",@"日历",@"微信原生分享",@"WK打印PDF",@"截长图",@"录屏"];
+    self.arrData = @[@"圆形布局",@"日历",@"微信原生分享",@"WK打印PDF",@"截长图",@"录屏",@"跑马灯"];
     [self.view addSubview:self.tabB];
     [self.tabB mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -75,6 +76,9 @@
         UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:luping];
         nav.modalPresentationStyle = UIModalPresentationOverFullScreen;
         [self.navigationController presentViewController:nav animated:YES completion:nil];
+    } else if (indexPath.row == 6) {
+        SquereController * con = [SquereController new];
+        [self.navigationController pushViewController:con animated:YES];
     }
 }
 

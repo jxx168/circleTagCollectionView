@@ -85,6 +85,9 @@
 		1AAE7B39247E12E40009080F /* ShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE7B38247E12E40009080F /* ShadowController.m */; };
 		1ACA7AFE24E0E77700AF0410 /* AGFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA7AFD24E0E77700AF0410 /* AGFileUtil.m */; };
 		1ACA7B0124E0E7B100AF0410 /* LuPingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA7B0024E0E7B100AF0410 /* LuPingController.m */; };
+		1AFB7B4B2507CEA900601EC1 /* SquereAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB7B4A2507CEA900601EC1 /* SquereAnimationView.m */; };
+		1AFB7B4E2507CF9C00601EC1 /* RaceLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB7B4D2507CF9C00601EC1 /* RaceLampView.m */; };
+		1AFB7B512507D2E900601EC1 /* SquereController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB7B502507D2E900601EC1 /* SquereController.m */; };
 		524F94B1242CCFEE0061F79F /* UIColor+NSSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 524F94B0242CCFEE0061F79F /* UIColor+NSSString.m */; };
 		526887C4242C560F0063A184 /* CircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C3242C560F0063A184 /* CircleController.m */; };
 		526887C7242C68470063A184 /* CalenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526887C6242C68470063A184 /* CalenderController.m */; };
@@ -264,6 +267,12 @@
 		1ACA7AFD24E0E77700AF0410 /* AGFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGFileUtil.m; sourceTree = "<group>"; };
 		1ACA7AFF24E0E7B100AF0410 /* LuPingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuPingController.h; sourceTree = "<group>"; };
 		1ACA7B0024E0E7B100AF0410 /* LuPingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuPingController.m; sourceTree = "<group>"; };
+		1AFB7B492507CEA900601EC1 /* SquereAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquereAnimationView.h; sourceTree = "<group>"; };
+		1AFB7B4A2507CEA900601EC1 /* SquereAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquereAnimationView.m; sourceTree = "<group>"; };
+		1AFB7B4C2507CF9C00601EC1 /* RaceLampView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaceLampView.h; sourceTree = "<group>"; };
+		1AFB7B4D2507CF9C00601EC1 /* RaceLampView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaceLampView.m; sourceTree = "<group>"; };
+		1AFB7B4F2507D2E900601EC1 /* SquereController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquereController.h; sourceTree = "<group>"; };
+		1AFB7B502507D2E900601EC1 /* SquereController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquereController.m; sourceTree = "<group>"; };
 		2606EB08BA980EEFC8098AD4 /* Pods-RunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.debug.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.debug.xcconfig"; sourceTree = "<group>"; };
 		40DE461113DB117B49C0872D /* Pods-RunTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTime.release.xcconfig"; path = "Target Support Files/Pods-RunTime/Pods-RunTime.release.xcconfig"; sourceTree = "<group>"; };
 		524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NSSString.h"; sourceTree = "<group>"; };
@@ -534,6 +543,19 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		1AFB7B482507CE9700601EC1 /* SquarereAni */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB7B492507CEA900601EC1 /* SquereAnimationView.h */,
+				1AFB7B4A2507CEA900601EC1 /* SquereAnimationView.m */,
+				1AFB7B4C2507CF9C00601EC1 /* RaceLampView.h */,
+				1AFB7B4D2507CF9C00601EC1 /* RaceLampView.m */,
+				1AFB7B4F2507D2E900601EC1 /* SquereController.h */,
+				1AFB7B502507D2E900601EC1 /* SquereController.m */,
+			);
+			path = SquarereAni;
+			sourceTree = "<group>";
+		};
 		526887C1242C55D90063A184 /* CircleBtn */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,6 +607,7 @@
 			children = (
 				1ACA7AFF24E0E7B100AF0410 /* LuPingController.h */,
 				1ACA7B0024E0E7B100AF0410 /* LuPingController.m */,
+				1AFB7B482507CE9700601EC1 /* SquarereAni */,
 				1ACA7AFB24E0E77100AF0410 /* Common */,
 				1A50DD3B24AC93320021350F /* SDWebImage */,
 				524F94AF242CCFEE0061F79F /* UIColor+NSSString.h */,
@@ -755,10 +778,12 @@
 				1A20639A24AC7B8A00F6F444 /* LongImgController.m in Sources */,
 				1A50DDFC24AC93320021350F /* SDImageCacheDefine.m in Sources */,
 				1A50DE0724AC93320021350F /* SDImageCachesManagerOperation.m in Sources */,
+				1AFB7B4B2507CEA900601EC1 /* SquereAnimationView.m in Sources */,
 				1A50DDE724AC93320021350F /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				1A50DDDE24AC93320021350F /* SDWebImageCacheSerializer.m in Sources */,
 				1A50DDF024AC93320021350F /* SDWebImageDownloaderConfig.m in Sources */,
 				52C475E2242AE87E00E8F52F /* CircleNewLayout.m in Sources */,
+				1AFB7B4E2507CF9C00601EC1 /* RaceLampView.m in Sources */,
 				1A50DDD924AC93320021350F /* UIImage+ForceDecode.m in Sources */,
 				1A50DDE824AC93320021350F /* SDWebImageError.m in Sources */,
 				1A50DDFF24AC93320021350F /* SDWebImageCacheKeyFilter.m in Sources */,
@@ -795,6 +820,7 @@
 				52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */,
 				1A50DE0324AC93320021350F /* UIView+WebCache.m in Sources */,
 				1A50DE0924AC93320021350F /* SDDeviceHelper.m in Sources */,
+				1AFB7B512507D2E900601EC1 /* SquereController.m in Sources */,
 				1A50DDE624AC93320021350F /* SDImageAPNGCoder.m in Sources */,
 				1A50DDF124AC93320021350F /* SDImageCache.m in Sources */,
 				1A50DDDC24AC93320021350F /* SDWebImageDownloader.m in Sources */,
