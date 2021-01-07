@@ -22,6 +22,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/LongImgController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCacheDefine.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCachesManagerOperation.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/OtherController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SquereAnimationView.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageDownloaderResponseModifier.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageCacheSerializer.o
@@ -44,6 +45,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/main.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/CalenderController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDInternalMacros.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/HomeController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageLoader.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImageView+WebCache.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageIndicator.o
@@ -55,6 +57,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImage+Transform.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImageView+HighlightedWebCache.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIColor+HexString.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/AGBaseTabBar.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCachesManager.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageCacheConfig.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWeakProxy.o
@@ -63,6 +66,7 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageDefine.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIView+PBFrameExtension.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIView+WebCache.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/AGBaseTabBarController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDDeviceHelper.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SquereController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageAPNGCoder.o
@@ -78,11 +82,13 @@
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIPrintPageRenderer+PDF.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/CircleLayout.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/NSBezierPath+RoundedCorners.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/NewsController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageHEICCoder.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/CircleController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDWebImageTransition.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/AGDateHelpObject.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDImageIOCoder.o
+/Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/MineController.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImage+Metadata.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/SDDiskCache.o
 /Users/yq/circleTagCollectionView/Build/Intermediates.noindex/RunTime.build/Debug-iphonesimulator/RunTime.build/Objects-normal/x86_64/UIImage+ExtendedCacheData.o

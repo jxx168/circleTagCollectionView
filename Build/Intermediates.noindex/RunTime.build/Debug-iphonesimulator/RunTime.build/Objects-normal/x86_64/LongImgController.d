@@ -1,6 +1,8 @@
 dependencies: \
   /Users/yq/circleTagCollectionView/RunTime/LongImage/LongImgController.m \
   /Users/yq/circleTagCollectionView/RunTime/LongImage/LongImgController.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap \
   /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/Masonry.h \
   /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/MASUtilities.h \
   /Users/yq/circleTagCollectionView/Pods/Headers/Public/Masonry/View+MASAdditions.h \

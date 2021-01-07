@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1B1CCB259D9D26003C6A58 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CCA259D9D26003C6A58 /* HomeController.m */; };
+		1A1B1CD0259D9D30003C6A58 /* OtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CCF259D9D30003C6A58 /* OtherController.m */; };
+		1A1B1CD4259D9D38003C6A58 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CD3259D9D38003C6A58 /* NewsController.m */; };
+		1A1B1CD8259D9D41003C6A58 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CD7259D9D41003C6A58 /* MineController.m */; };
+		1A1B1CDE259D9DB7003C6A58 /* AGBaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CDD259D9DB7003C6A58 /* AGBaseTabBar.m */; };
+		1A1B1CE3259D9F24003C6A58 /* AGBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B1CE2259D9F24003C6A58 /* AGBaseTabBarController.m */; };
 		1A20639A24AC7B8A00F6F444 /* LongImgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A20639924AC7B8A00F6F444 /* LongImgController.m */; };
 		1A50DDCD24AC93320021350F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A50DD3E24AC93320021350F /* LICENSE */; };
 		1A50DDCE24AC93320021350F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A50DD3F24AC93320021350F /* README.md */; };
@@ -109,6 +115,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1B1CC9259D9D26003C6A58 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		1A1B1CCA259D9D26003C6A58 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		1A1B1CCE259D9D30003C6A58 /* OtherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherController.h; sourceTree = "<group>"; };
+		1A1B1CCF259D9D30003C6A58 /* OtherController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherController.m; sourceTree = "<group>"; };
+		1A1B1CD2259D9D38003C6A58 /* NewsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
+		1A1B1CD3259D9D38003C6A58 /* NewsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
+		1A1B1CD6259D9D41003C6A58 /* MineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		1A1B1CD7259D9D41003C6A58 /* MineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		1A1B1CDC259D9DB7003C6A58 /* AGBaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGBaseTabBar.h; sourceTree = "<group>"; };
+		1A1B1CDD259D9DB7003C6A58 /* AGBaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGBaseTabBar.m; sourceTree = "<group>"; };
+		1A1B1CE1259D9F24003C6A58 /* AGBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGBaseTabBarController.h; sourceTree = "<group>"; };
+		1A1B1CE2259D9F24003C6A58 /* AGBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGBaseTabBarController.m; sourceTree = "<group>"; };
 		1A20639824AC7B8A00F6F444 /* LongImgController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongImgController.h; sourceTree = "<group>"; };
 		1A20639924AC7B8A00F6F444 /* LongImgController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongImgController.m; sourceTree = "<group>"; };
 		1A50DD3D24AC93320021350F /* SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImage.h; sourceTree = "<group>"; };
@@ -323,6 +341,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1B1CC4259D9D19003C6A58 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CDA259D9D55003C6A58 /* Common */,
+				1A1B1CC5259D9D19003C6A58 /* Home */,
+				1A1B1CC6259D9D19003C6A58 /* Other */,
+				1A1B1CC7259D9D19003C6A58 /* News */,
+				1A1B1CC8259D9D19003C6A58 /* Mine */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1A1B1CC5259D9D19003C6A58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CC9259D9D26003C6A58 /* HomeController.h */,
+				1A1B1CCA259D9D26003C6A58 /* HomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A1B1CC6259D9D19003C6A58 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CCE259D9D30003C6A58 /* OtherController.h */,
+				1A1B1CCF259D9D30003C6A58 /* OtherController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1A1B1CC7259D9D19003C6A58 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CD2259D9D38003C6A58 /* NewsController.h */,
+				1A1B1CD3259D9D38003C6A58 /* NewsController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		1A1B1CC8259D9D19003C6A58 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CD6259D9D41003C6A58 /* MineController.h */,
+				1A1B1CD7259D9D41003C6A58 /* MineController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1A1B1CDA259D9D55003C6A58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CDB259D9D68003C6A58 /* Bar */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1A1B1CDB259D9D68003C6A58 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B1CDC259D9DB7003C6A58 /* AGBaseTabBar.h */,
+				1A1B1CDD259D9DB7003C6A58 /* AGBaseTabBar.m */,
+				1A1B1CE1259D9F24003C6A58 /* AGBaseTabBarController.h */,
+				1A1B1CE2259D9F24003C6A58 /* AGBaseTabBarController.m */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
 		1A20639724AC7B7600F6F444 /* LongImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -605,6 +690,7 @@
 		52C475982429A2A400E8F52F /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				1A1B1CC4259D9D19003C6A58 /* Class */,
 				1ACA7AFF24E0E7B100AF0410 /* LuPingController.h */,
 				1ACA7B0024E0E7B100AF0410 /* LuPingController.m */,
 				1AFB7B482507CE9700601EC1 /* SquarereAni */,
@@ -778,6 +864,7 @@
 				1A20639A24AC7B8A00F6F444 /* LongImgController.m in Sources */,
 				1A50DDFC24AC93320021350F /* SDImageCacheDefine.m in Sources */,
 				1A50DE0724AC93320021350F /* SDImageCachesManagerOperation.m in Sources */,
+				1A1B1CD0259D9D30003C6A58 /* OtherController.m in Sources */,
 				1AFB7B4B2507CEA900601EC1 /* SquereAnimationView.m in Sources */,
 				1A50DDE724AC93320021350F /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				1A50DDDE24AC93320021350F /* SDWebImageCacheSerializer.m in Sources */,
@@ -800,6 +887,7 @@
 				52C475AC2429A2A600E8F52F /* main.m in Sources */,
 				526887C7242C68470063A184 /* CalenderController.m in Sources */,
 				1A50DE0B24AC93320021350F /* SDInternalMacros.m in Sources */,
+				1A1B1CCB259D9D26003C6A58 /* HomeController.m in Sources */,
 				1A50DDDD24AC93320021350F /* SDImageLoader.m in Sources */,
 				1A50DDFA24AC93320021350F /* UIImageView+WebCache.m in Sources */,
 				1A50DDDF24AC93320021350F /* SDWebImageIndicator.m in Sources */,
@@ -811,6 +899,7 @@
 				1A50DDDB24AC93320021350F /* UIImage+Transform.m in Sources */,
 				1A50DDD624AC93320021350F /* UIImageView+HighlightedWebCache.m in Sources */,
 				1A50DE1024AC93320021350F /* UIColor+HexString.m in Sources */,
+				1A1B1CDE259D9DB7003C6A58 /* AGBaseTabBar.m in Sources */,
 				1A50DDF624AC93320021350F /* SDImageCachesManager.m in Sources */,
 				1A50DDFE24AC93320021350F /* SDImageCacheConfig.m in Sources */,
 				1A50DE0A24AC93320021350F /* SDWeakProxy.m in Sources */,
@@ -819,6 +908,7 @@
 				1A50DE0024AC93320021350F /* SDWebImageDefine.m in Sources */,
 				52C475C42429E14800E8F52F /* UIView+PBFrameExtension.m in Sources */,
 				1A50DE0324AC93320021350F /* UIView+WebCache.m in Sources */,
+				1A1B1CE3259D9F24003C6A58 /* AGBaseTabBarController.m in Sources */,
 				1A50DE0924AC93320021350F /* SDDeviceHelper.m in Sources */,
 				1AFB7B512507D2E900601EC1 /* SquereController.m in Sources */,
 				1A50DDE624AC93320021350F /* SDImageAPNGCoder.m in Sources */,
@@ -834,11 +924,13 @@
 				1AAE3E3124AC35CF00608542 /* UIPrintPageRenderer+PDF.m in Sources */,
 				52C475C12429D88100E8F52F /* CircleLayout.m in Sources */,
 				1A50DE0F24AC93320021350F /* NSBezierPath+RoundedCorners.m in Sources */,
+				1A1B1CD4259D9D38003C6A58 /* NewsController.m in Sources */,
 				1A50DDCF24AC93320021350F /* SDImageHEICCoder.m in Sources */,
 				526887C4242C560F0063A184 /* CircleController.m in Sources */,
 				1A50DDF724AC93320021350F /* SDWebImageTransition.m in Sources */,
 				526887CE242C6F770063A184 /* AGDateHelpObject.m in Sources */,
 				1A50DDEC24AC93320021350F /* SDImageIOCoder.m in Sources */,
+				1A1B1CD8259D9D41003C6A58 /* MineController.m in Sources */,
 				1A50DE0424AC93320021350F /* UIImage+Metadata.m in Sources */,
 				1A50DDED24AC93320021350F /* SDDiskCache.m in Sources */,
 				1A50DDEF24AC93320021350F /* UIImage+ExtendedCacheData.m in Sources */,
